@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{C1B3DBA8-133F-4031-8F25-BEC3DEE1039E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRP", "SRP", "{9817BCE2-D3ED-4409-9DA1-5B7073856F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "SRP\SRP.csproj", "{DB1B6689-06DF-4239-8936-CDB973A6D0A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1B3DBA8-133F-4031-8F25-BEC3DEE1039E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B3DBA8-133F-4031-8F25-BEC3DEE1039E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B3DBA8-133F-4031-8F25-BEC3DEE1039E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B3DBA8-133F-4031-8F25-BEC3DEE1039E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB1B6689-06DF-4239-8936-CDB973A6D0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1B6689-06DF-4239-8936-CDB973A6D0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1B6689-06DF-4239-8936-CDB973A6D0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1B6689-06DF-4239-8936-CDB973A6D0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB1B6689-06DF-4239-8936-CDB973A6D0A2} = {9817BCE2-D3ED-4409-9DA1-5B7073856F00}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20032344-6E3D-418D-B4FD-4EFDA1D1F874}
+	EndGlobalSection
+EndGlobal
