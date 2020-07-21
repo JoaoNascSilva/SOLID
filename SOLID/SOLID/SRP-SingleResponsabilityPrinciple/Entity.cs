@@ -1,10 +1,10 @@
 ﻿namespace AplicandoSOLIDNaPratica
 {
-    public class Entity
+    public abstract class Entity
     {
-        public string Id { get; private set; }
+        protected string Id { get; private set; }
 
-        public Entity()
+        protected Entity()
         {
             this.Id = System.Guid.NewGuid().ToString().Substring(0, 8);
         }
