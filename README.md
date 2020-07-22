@@ -5,7 +5,7 @@
 Aplicando os principios do S.O.L.I.D.
 
 #### SRP - Single Responsability Principle [Princípio da Responsabilidade Única]
-> Uma classe deve ter um, e apenas um motivo para ser modificada.
+> Uma classe deve ter uma, e apenas uma responsabilidade.
 
 
 #### OCP - Open Closed Principle [Princípio do Aberto e Fechado]
