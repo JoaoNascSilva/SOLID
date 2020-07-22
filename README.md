@@ -1,4 +1,4 @@
-<img src="/Exemplos/imageSOLID.jpg">
+<img src="/Exemplos/imgSOLID.jpg">
 
 - Acrônimo para os cinco princípios da programação orientada a objetos e design de código, identificados por Robert C. Martin (Uncle Bob), em meados dos anos 2000.
 
