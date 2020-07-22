@@ -3,18 +3,18 @@
 
 Aplicando os principios do S.O.L.I.D.
 
-- # SRP - Single Responsability Principle [Princípio da Responsabilidade Única]
+- #### SRP - Single Responsability Principle [Princípio da Responsabilidade Única]
 -- Uma classe deve ter um, e apenas um motivo para ser modificada.
 
 
-- # OCP - Open Closed Principle [Princípio do Aberto e Fechado]
+- #### OCP - Open Closed Principle [Princípio do Aberto e Fechado]
 --
 
-- # LSP - Liskov Substitution Principle [Princípio da Substituição de Liskov]
+- #### LSP - Liskov Substitution Principle [Princípio da Substituição de Liskov]
 --
 
-- # ISP - Interface Segregation Principal [Princípio da Segregação por Interface]
+- #### ISP - Interface Segregation Principal [Princípio da Segregação por Interface]
 --
 
-- # DIP - Dependency Injectable Principal [Princípio da Inversão de Dependência]
+- #### DIP - Dependency Injectable Principal [Princípio da Inversão de Dependência]
 --
