@@ -9,7 +9,7 @@
             this.Address = address;
         }
 
-        public bool Validar()
+        public bool IsValid()
         {
             if (!this.Address.Contains("@"))
                 return false;

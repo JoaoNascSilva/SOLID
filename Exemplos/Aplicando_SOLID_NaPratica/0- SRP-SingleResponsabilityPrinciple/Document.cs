@@ -15,7 +15,7 @@ namespace Aplicando_SOLID_NaPratica
 
         //Validacao Simples
         //Intuito e trabalhar o SOLID e nao demais funcionalidades
-        public bool Validar()
+        public bool IsValid()
         {
             if (this.Cpf.Length != 11)
                 return false;

@@ -13,9 +13,9 @@
             this.Documents = documents;
         }
 
-        public bool Validar()
+        public bool IsValid()
         {
-            if (!EmailAddress.Validar() && !Documents.Validar())
+            if (!EmailAddress.IsValid() && !Documents.IsValid())
                 return false;
 
             return true;

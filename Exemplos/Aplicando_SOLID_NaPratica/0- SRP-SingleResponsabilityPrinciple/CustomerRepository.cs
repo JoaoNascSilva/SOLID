@@ -5,7 +5,7 @@ namespace Aplicando_SOLID_NaPratica
 {
     public class CustomerRepository
     {
-        public void AddCustomer()
+        public void AddCustomer(Customer customer)
         {
             using(var connection = new SqlConnection())
             {
@@ -17,7 +17,7 @@ namespace Aplicando_SOLID_NaPratica
                 command.CommandText = "[ SQL INSERT ] ";
                 
                 connection.Open();
-                connection.ExecuteNonQuery();                
+                command.ExecuteNonQuery();    
             }
         }
     }
